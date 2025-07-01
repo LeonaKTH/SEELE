@@ -1,0 +1,13 @@
+07/01/2025 17:47:57 - INFO - __main__ - Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Use FP16 precision: False
+
+07/01/2025 17:48:00 - WARNING - datasets.builder - Using custom data configuration default-14bdf87a8aa4f57d
+07/01/2025 17:48:00 - WARNING - datasets.builder - Reusing dataset json (C:\Users\Leona\.cache\huggingface\datasets\json\default-14bdf87a8aa4f57d\0.0.0)
+07/01/2025 17:48:00 - WARNING - datasets.fingerprint - Parameter 'function'=<function duee_v1_process at 0x00000206A56F3438> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+07/01/2025 17:48:00 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at C:\Users\Leona\.cache\huggingface\datasets\json\default-14bdf87a8aa4f57d\0.0.0\cache-6b57cfe20e8cd89d.arrow
+07/01/2025 17:48:00 - WARNING - datasets.builder - Using custom data configuration default-f07d22acca2efc09
+07/01/2025 17:48:00 - ERROR - datasets.packaged_modules.json.json - Failed to read file 'D:\NLP\SEELE-main\SEELE-main\data\FNDEE\FNDEE_test_2500_.json' with error <class 'pyarrow.lib.ArrowInvalid'>: JSON parse error: Column() changed from object to array in row 0

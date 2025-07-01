@@ -1,0 +1,9 @@
+07/01/2025 17:08:27 - INFO - __main__ - Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Use FP16 precision: False
+
+07/01/2025 17:08:30 - WARNING - datasets.builder - Using custom data configuration default-14bdf87a8aa4f57d
+07/01/2025 17:08:30 - WARNING - datasets.fingerprint - Parameter 'function'=<function duee_v1_process at 0x000001D9DF535708> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
